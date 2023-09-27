@@ -1,0 +1,165 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./img/batman-and-his-logo-behind-him-wallpaper-5120x2880_55.jpg);
+
+  background-size: cover;
+}
+
+/*Index*/
+
+#inicio {
+  color: aliceblue;
+  margin-left: 45%;
+  font-size: 300%;
+  text-shadow: 1px 1px red;
+}
+
+.containerIndex {
+  width: 100%;
+  flex-direction: column;
+}
+.tittle {
+  width: 95%;
+  height: 20%;
+  margin: auto;
+}
+.form {
+  width: 70%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.formOne {
+  width: 40%;
+  margin-top: 5%;
+  color: white;
+  font-size: 140%;
+}
+
+.formOne .button {
+  margin-left: 41%;
+  margin-top: 5%;
+}
+
+.formOne input {
+  margin-left: 20%;
+  box-shadow: 2px 2px 4px red;
+}
+.credencial {
+  color: aliceblue;
+  font-size: 130%;
+  margin-left: 43%;
+  text-shadow: 1px 1px rgb(26, 223, 26);
+}
+
+/*style Table*/
+
+.container {
+  width: 100%;
+  height: auto;
+  padding-top: 3%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.close {
+  color: white;
+  margin-left: 95%;
+}
+.head {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+#Registro {
+  color: white;
+  font-size: 300%;
+  text-shadow: 2px 2px red;
+}
+
+.table {
+  background-color: rgba(244, 235, 235, 0.7);
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px white;
+  width: 80%;
+  margin-left: 10%;
+}
+.tr {
+  color: rgb(198, 14, 14);
+  font-size: 23px;
+}
+td {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.button {
+  background-color: rgb(226, 89, 89);
+  border-radius: 5px;
+  margin-top: 1%;
+}
+.button:hover {
+  background-color: red;
+  font-size: 90%;
+  cursor: pointer;
+}
+
+/*style Registro*/
+
+.headUp {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.headUp button {
+  height: 30%;
+}
+
+.tiltleRegistro {
+  width: 95%;
+  height: 20%;
+  color: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 170%;
+  text-shadow: 1px 1px red;
+}
+.containerCenter {
+  width: 95%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.containerForm {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 135%;
+  text-shadow: 2px 1px red;
+}
+.containerForm .button {
+  margin-left: 20%;
+}
+.containerForm input {
+  box-shadow: 2px 2px 3px red;
+  font-size: 80%;
+  border-radius: 3px;
+}
+
+.containerForm select {
+  width: 60%;
+  box-shadow: 2px 2px 3px red;
+  font-size: 20px;
+  margin-bottom: 3%;
+}
